@@ -1,9 +1,13 @@
 import Vue from 'vue/dist/vue.js';
 import { ikonyglowne } from './icons.js';
 import {videoSources} from './videoData';
-import { iconA,iconAclicked,iconB,iconBclicked,iconC,iconCclicked,homeButton,homeButtonclicked } from './icons.js'
+import { iconA,iconAclicked,iconB,iconBclicked,iconC,iconCclicked,homeButton,homeButtonclicked } from './icons.js';
+
+
+
 var app = new Vue({
   el: '#app',
+  
   data: () => {
     return {
      
